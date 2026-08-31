@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อนันตชัย แซ่จู้ — Video Editor Portfolio</title>
+    <meta name="description" content="พอร์ตโฟลิโอของอนันตชัย แซ่จู้ (บี) นักตัดต่อวิดีโอ นักศึกษาวิทยาลัยการอาชีพวังไกลกังวล">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- แถบไทม์ไลน์นำทาง -->
+    <nav class="scrubber" aria-label="เมนูหลัก">
+        <a href="#top" class="scrubber-brand">บี<span>.</span></a>
+        <div class="scrubber-track">
+            <span class="scrubber-playhead" aria-hidden="true"></span>
+            <a href="#about" class="scrubber-link" data-section="about"><span class="tc">00:01</span>เกี่ยวกับ</a>
+            <a href="#skills" class="scrubber-link" data-section="skills"><span class="tc">00:02</span>ทักษะ</a>
+            <a href="#projects" class="scrubber-link" data-section="projects"><span class="tc">00:03</span>ผลงาน</a>
+            <a href="#education" class="scrubber-link" data-section="education"><span class="tc">00:04</span>การศึกษา</a>
+            <a href="#contact" class="scrubber-link" data-section="contact"><span class="tc">00:05</span>ติดต่อ</a>
+        </div>
+    </nav>
+
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="container" id="top">
+
+        <!-- ส่วนหัว (Hero) -->
+        <header class="hero">
+            <p class="hero-eyebrow reveal"><span class="rec-dot" aria-hidden="true"></span>REEL — 2569</p>
+            <h1 class="reveal">อนันตชัย<br>แซ่จู้</h1>
+            <p class="hero-role reveal">Video Editor <span class="divider">/</span> Motion &amp; Color</p>
+            <p class="hero-sub reveal">นักศึกษา วิทยาลัยการอาชีพวังไกลกังวล — ชื่อเล่น &ldquo;บี&rdquo;</p>
+            <blockquote class="hero-quote reveal">ไม่มีวันวานให้กลับไปแก้ไข มีแต่วันใหม่ให้ก้าวเดินต่อไป</blockquote>
+
+            <div class="hero-links reveal">
+                <a href="#projects" class="btn-primary">ดูผลงาน<i class="fas fa-arrow-down"></i></a>
+                <a href="resume.html" class="btn-primary">ดูเรซูเม่<i class="fas fa-file-alt"></i></a>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@sekaboi" target="_blank" rel="noopener" aria-label="TikTok"><i
+                            class="fab fa-tiktok"></i></a>
+                    <a href="mailto:xnantchaysaecu@gmai.com" aria-label="อีเมล"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:0955124446" aria-label="โทรศัพท์"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- เกี่ยวกับฉัน -->
+        <section id="about" class="section about">
+            <div class="section-head reveal">
+                <span class="tc-label">00:01</span>
+                <h2>เกี่ยวกับฉัน</h2>
+            </div>
+            <div class="about-body reveal">
+                <p>สวัสดีครับ ผม <strong>อนันตชัย แซ่จู้ (บี)</strong> กำลังศึกษาอยู่ที่
+                    <strong>วิทยาลัยการอาชีพวังไกลกังวล</strong> ผมหลงใหลในการเล่าเรื่องผ่านภาพเคลื่อนไหว
+                    ตั้งแต่การตัดต่อ การออกแบบเสียง ไปจนถึงการไล่สี (Color Grading)
+                    และพร้อมเรียนรู้ระบบงานจริงในกองถ่ายหรือสตูดิโอ เพื่อพัฒนาฝีมือ
+                    และร่วมสร้างผลงานที่มีคุณภาพไปกับทีม
+                </p>
+                <div class="skills-preview">
+                    <span class="skill-tag">Video Editing</span>
+                    <span class="skill-tag">Sound Design</span>
+                    <span class="skill-tag">Color Grading</span>
+                    <span class="skill-tag">Motion Graphics</span>
+                    <span class="skill-tag">Content Strategy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ทักษะความสามารถ -->
+        <section id="skills" class="section skills">
+            <div class="section-head reveal">
+                <span class="tc-label">00:02</span>
+                <h2>ทักษะความสามารถ</h2>
+            </div>
+            <div class="skill-bars reveal">
+                <div class="skill-bar">
+                    <div class="skill-name">
+                        <span>Video Editing</span>
+                        <span class="skill-tools">Premiere Pro · DaVinci Resolve · CapCut</span>
+                    </div>
+                    <div class="meter" role="img" aria-label="ระดับความชำนาญ 90%">
+                        <div class="meter-fill" style="--level:90%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">
+                        <span>Motion Graphics &amp; VFX</span>
+                        <span class="skill-tools">After Effects · Keyframing · Subtitles</span>
+                    </div>
+                    <div class="meter" role="img" aria-label="ระดับความชำนาญ 85%">
+                        <div class="meter-fill" style="--level:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">
+                        <span>Color Grading</span>
+                        <span class="skill-tools">Lumetri Color · Match Cut · Look Dev</span>
+                    </div>
+                    <div class="meter" role="img" aria-label="ระดับความชำนาญ 80%">
+                        <div class="meter-fill" style="--level:80%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">
+                        <span>Audio Design</span>
+                        <span class="skill-tools">Adobe Audition · Noise Reduction · SFX</span>
+                    </div>
+                    <div class="meter" role="img" aria-label="ระดับความชำนาญ 85%">
+                        <div class="meter-fill" style="--level:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">
+                        <span>Content Strategy</span>
+                        <span class="skill-tools">YouTube · TikTok/Reels/Shorts · Corporate</span>
+                    </div>
+                    <div class="meter" role="img" aria-label="ระดับความชำนาญ 90%">
+                        <div class="meter-fill" style="--level:90%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ผลงานเด่น -->
+        <section id="projects" class="section projects">
+            <div class="section-head reveal">
+                <span class="tc-label">00:03</span>
+                <h2>ผลงานเด่น</h2>
+            </div>
+            <p class="section-intro reveal">เลือกเล่นคลิปเพื่อรับชมผลงานได้โดยตรง ไม่ต้องออกจากหน้านี้</p>
+
+            <div class="projects-grid reveal">
+                <!-- ผลงานที่ 1 -->
+                <article class="project-card">
+                    <div class="project-media">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sekaboi/video/7528911559351995666"
+                            data-video-id="7528911559351995666">
+                            <section></section>
+                        </blockquote>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-cat">สารคดีสั้น / โฆษณา</span>
+                        <h3>Fast Cut / Creative Editing</h3>
+                        <p>เล่าเรื่องผ่านจังหวะการตัดต่อที่สอดคล้องกับดนตรี
+                            เน้นการบิ้วอารมณ์ด้วยเสียงประกอบและโทนสีภาพที่เข้ากับบรรยากาศ</p>
+                        <p class="tech-tags"><span>Premiere Pro</span><span>Color Grading</span><span>Sound
+                                Design</span></p>
+                    </div>
+                </article>
+
+                <!-- ผลงานที่ 2 -->
+                <article class="project-card">
+                    <div class="project-media">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sekaboi/video/7499544554207726866"
+                            data-video-id="7499544554207726866">
+                            <section></section>
+                        </blockquote>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-cat">Short-form Content</span>
+                        <h3>TikTok / Reels Commercial</h3>
+                        <p>เน้น Retention Rate สูง ตัดต่อกระชับ ทำ Motion Subtitle
+                            และใส่ลูกเล่นดึงดูดสายตาในสามวินาทีแรก เข้ากับกลุ่มเป้าหมาย Gen Z</p>
+                        <p class="tech-tags"><span>CapCut</span><span>After Effects</span><span>Motion
+                                Subtitle</span></p>
+                    </div>
+                </article>
+
+                <!-- ผลงานที่ 3 -->
+                <article class="project-card">
+                    <div class="project-media">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sekaboi/video/7502691951725071634"
+                            data-video-id="7502691951725071634">
+                            <section></section>
+                        </blockquote>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-cat">วิดีโอองค์กร</span>
+                        <h3>Corporate Video / Presentation</h3>
+                        <p>เรียบเรียงสตอรี่บอร์ด ตัดต่อ และทำ Motion Graphics ประกอบข้อมูล
+                            เปลี่ยนข้อมูลที่เข้าใจยากให้กลายเป็นภาพที่ย่อยง่าย สนุก และน่าติดตาม</p>
+                        <p class="tech-tags"><span>Storyboard</span><span>Motion Graphics</span><span>After
+                                Effects</span></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- การศึกษา -->
+        <section id="education" class="section education">
+            <div class="section-head reveal">
+                <span class="tc-label">00:04</span>
+                <h2>การศึกษา</h2>
+            </div>
+            <div class="education-items reveal">
+                <div class="education-item">
+                    <h3>คอมพิวเตอร์ธุรกิจ / สาขาที่เกี่ยวข้อง</h3>
+                    <p class="institution">วิทยาลัยการอาชีพวังไกลกังวล</p>
+                    <p>เน้นการเรียนรู้ทักษะเทคโนโลยี คอมพิวเตอร์มัลติมีเดีย การผลิตสื่อ และการตัดต่อวิดีโอ</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ติดต่อ -->
+        <section id="contact" class="section contact">
+            <div class="section-head reveal">
+                <span class="tc-label">00:05</span>
+                <h2>ช่องทางการติดต่อ</h2>
+            </div>
+
+            <div class="contact-grid reveal">
+                <div class="contact-info">
+                    <a class="contact-item" href="mailto:xnantchaysaecu@gmai.com">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>อีเมล</h3>
+                            <p>xnantchaysaecu@gmai.com</p>
+                        </div>
+                    </a>
+                    <a class="contact-item" href="tel:0955124446">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>เบอร์โทรศัพท์</h3>
+                            <p>095-512-4446</p>
+                        </div>
+                    </a>
+                    <a class="contact-item" href="https://www.tiktok.com/@sekaboi" target="_blank" rel="noopener">
+                        <i class="fab fa-tiktok"></i>
+                        <div>
+                            <h3>TikTok</h3>
+                            <p>@sekaboi</p>
+                        </div>
+                    </a>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="ชื่อของคุณ" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="อีเมลของคุณ" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="ข้อความถึงอนันตชัย..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">ส่งข้อความ<i class="fas fa-arrow-right"></i></button>
+                    <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>อนันตชัย แซ่จู้ — Video Editor Portfolio</p>
+        </footer>
+    </div>
+
+    <script async src="https://www.tiktok.com/embed.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
